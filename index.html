@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Companion</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="search-container">
+        <div class="search-box">
+          <input
+            type="text"
+            id="location-input"
+            placeholder="Enter destination..."
+          />
+          <button onclick="searchLocation()">Search</button>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="card">
+          <div class="card-header">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path
+                d="M12 2v2m0 16v2M4 12H2m20 0h-2m-2.05-6.95l-1.41 1.41M7.05 18.36l-1.41 1.41M16.95 7.05l1.41-1.41m-12.72 12.72l1.41-1.41M12 7a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5z"
+              />
+            </svg>
+            <h2>Weather</h2>
+          </div>
+          <div class="weather-info" id="weather-info">
+            <!-- Weather data will be inserted here -->
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            >
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            <h2>Nearby Places</h2>
+          </div>
+          <div class="places-list" id="places-list">
+            <!-- Places data will be inserted here -->
+          </div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top: 2rem">
+        <div class="card-header">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M3 7l9-4 9 4M3 7v10l9 4M3 7l9 4m0 0v10m0-10l9-4" />
+          </svg>
+          <h2>Map</h2>
+        </div>
+        <div id="map"></div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
