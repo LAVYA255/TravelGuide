@@ -14,6 +14,7 @@ Travel Guide is a web application designed to help users explore and save destin
 
 ## 🛠️ Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
+- **APIS🔗USED:** OPENWEATHER API(for Weather), FOURSQUARE API (For map), PIXELS API(for background Images)
 ## By Lavya Tanotra- Student of Scaler School of Technology
 - Final Project 
 
