@@ -1,23 +1,19 @@
-Travel Guide
+# Travel Guide
 
-🌍 Live Demo
+## 🌍 Live Demo
+Check out the live version of the project: [Travel Guide](https://lavya255.github.io/TravelGuide/)
 
-Check out the live version of the project: Travel Guide
-
-📌 Overview
-
+## 📌 Overview
 Travel Guide is a web application designed to help users explore and save destinations. Users can log in using their Google account and add destinations to their 'WishVisit' list using Firebase for data storage.
 
-🚀 Features
+## 🚀 Features
+- 🔍 Browse and explore various travel destinations
+- 🎨 Responsive and user-friendly interface
+- ☁️ Know the Weather of place you want to visit
+- 📍 Get info about Nearby Lovations
 
-🔍 Browse and explore various travel destinations
+## 🛠️ Technologies Used
+- **Frontend:** HTML, CSS, JavaScript
+## By Lavya Tanotra- Student of Scaler School of Technology
+- Final Project 
 
-✅ Google authentication using Firebase
-
-📌 Save favorite destinations to 'WishVisit'
-
-🎨 Responsive and user-friendly interface
-
-🛠️ Technologies Used
-
-Frontend: HTML, CSS, JavaScript
